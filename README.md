@@ -1,10 +1,10 @@
-# server_design_DELL_lab
+# Server_design_DELL_lab
 
 # Build an image 
 docker build . -t dell_lab/app
 
 
-# run an image and map port
+# Run an image and map port
 docker run -p public_port:private_port -d dell_lab/app
 
 
